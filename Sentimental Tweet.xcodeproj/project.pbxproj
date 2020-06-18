@@ -13,7 +13,62 @@
 		04C294C324973FB50060466B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C294C124973FB50060466B /* Main.storyboard */; };
 		04C294C524973FBD0060466B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C294C424973FBD0060466B /* Assets.xcassets */; };
 		04C294C824973FBD0060466B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C294C624973FBD0060466B /* LaunchScreen.storyboard */; };
+		04C294D024974D5F0060466B /* TwitterSentimentClassifer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 04C294CF24974D5F0060466B /* TwitterSentimentClassifer.mlmodel */; };
+		04F9DA05249B1CA500254278 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F9D9FB249B1C7000254278 /* SwifteriOS.framework */; };
+		04F9DA06249B1CA500254278 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04F9D9FB249B1C7000254278 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F9D9FA249B1C7000254278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F9D9F2249B1C7000254278 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		04F9D9FC249B1C7000254278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F9D9F2249B1C7000254278 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		04F9D9FE249B1C7000254278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F9D9F2249B1C7000254278 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		04F9DA00249B1C7000254278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F9D9F2249B1C7000254278 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		04F9DA02249B1C7000254278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F9D9F2249B1C7000254278 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04F9DA07249B1CA500254278 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04F9DA06249B1CA500254278 /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		04C294B824973FB50060466B /* Sentimental Tweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sentimental Tweet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +79,8 @@
 		04C294C424973FBD0060466B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C294C724973FBD0060466B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C294C924973FBD0060466B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C294CF24974D5F0060466B /* TwitterSentimentClassifer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TwitterSentimentClassifer.mlmodel; sourceTree = "<group>"; };
+		04F9D9F2249B1C7000254278 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../../../Desktop/Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F9DA05249B1CA500254278 /* SwifteriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +98,10 @@
 		04C294AF24973FB50060466B = {
 			isa = PBXGroup;
 			children = (
+				04F9D9F2249B1C7000254278 /* Swifter.xcodeproj */,
 				04C294BA24973FB50060466B /* Sentimental Tweet */,
 				04C294B924973FB50060466B /* Products */,
+				04F9DA04249B1CA500254278 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +121,30 @@
 				04C294BF24973FB50060466B /* ViewController.swift */,
 				04C294C124973FB50060466B /* Main.storyboard */,
 				04C294C424973FBD0060466B /* Assets.xcassets */,
+				04C294CF24974D5F0060466B /* TwitterSentimentClassifer.mlmodel */,
 				04C294C624973FBD0060466B /* LaunchScreen.storyboard */,
 				04C294C924973FBD0060466B /* Info.plist */,
 			);
 			path = "Sentimental Tweet";
+			sourceTree = "<group>";
+		};
+		04F9D9F3249B1C7000254278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F9D9FB249B1C7000254278 /* SwifteriOS.framework */,
+				04F9D9FD249B1C7000254278 /* SwifterMac.framework */,
+				04F9D9FF249B1C7000254278 /* SwifterDemoiOS.app */,
+				04F9DA01249B1C7000254278 /* SwifterDemoMac.app */,
+				04F9DA03249B1C7000254278 /* SwifterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F9DA04249B1CA500254278 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +157,7 @@
 				04C294B424973FB50060466B /* Sources */,
 				04C294B524973FB50060466B /* Frameworks */,
 				04C294B624973FB50060466B /* Resources */,
+				04F9DA07249B1CA500254278 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,12 +194,56 @@
 			mainGroup = 04C294AF24973FB50060466B;
 			productRefGroup = 04C294B924973FB50060466B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04F9D9F3249B1C7000254278 /* Products */;
+					ProjectRef = 04F9D9F2249B1C7000254278 /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				04C294B724973FB50060466B /* Sentimental Tweet */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		04F9D9FB249B1C7000254278 /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = 04F9D9FA249B1C7000254278 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04F9D9FD249B1C7000254278 /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = 04F9D9FC249B1C7000254278 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04F9D9FF249B1C7000254278 /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = 04F9D9FE249B1C7000254278 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04F9DA01249B1C7000254278 /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = 04F9DA00249B1C7000254278 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04F9DA03249B1C7000254278 /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = 04F9DA02249B1C7000254278 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		04C294B624973FB50060466B /* Resources */ = {
@@ -139,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C294C024973FB50060466B /* ViewController.swift in Sources */,
+				04C294D024974D5F0060466B /* TwitterSentimentClassifer.mlmodel in Sources */,
 				04C294BC24973FB50060466B /* AppDelegate.swift in Sources */,
 				04C294BE24973FB50060466B /* SceneDelegate.swift in Sources */,
 			);
