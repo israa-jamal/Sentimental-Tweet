@@ -14,7 +14,6 @@
 		04C294C524973FBD0060466B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C294C424973FBD0060466B /* Assets.xcassets */; };
 		04C294C824973FBD0060466B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C294C624973FBD0060466B /* LaunchScreen.storyboard */; };
 		04C294D024974D5F0060466B /* TwitterSentimentClassifer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 04C294CF24974D5F0060466B /* TwitterSentimentClassifer.mlmodel */; };
-		04C84D3A24A6994200D579E8 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C84D3924A6994200D579E8 /* Keys.swift */; };
 		04F9DA05249B1CA500254278 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F9D9FB249B1C7000254278 /* SwifteriOS.framework */; };
 		04F9DA06249B1CA500254278 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04F9D9FB249B1C7000254278 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -81,7 +80,6 @@
 		04C294C724973FBD0060466B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C294C924973FBD0060466B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C294CF24974D5F0060466B /* TwitterSentimentClassifer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TwitterSentimentClassifer.mlmodel; sourceTree = "<group>"; };
-		04C84D3924A6994200D579E8 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		04F9D9F2249B1C7000254278 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../../../Desktop/Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,7 +124,6 @@
 				04C294CF24974D5F0060466B /* TwitterSentimentClassifer.mlmodel */,
 				04C294C624973FBD0060466B /* LaunchScreen.storyboard */,
 				04C294C924973FBD0060466B /* Info.plist */,
-				04C84D3924A6994200D579E8 /* Keys.swift */,
 			);
 			path = "Sentimental Tweet";
 			sourceTree = "<group>";
@@ -270,7 +267,6 @@
 				04C294D024974D5F0060466B /* TwitterSentimentClassifer.mlmodel in Sources */,
 				04C294BC24973FB50060466B /* AppDelegate.swift in Sources */,
 				04C294BE24973FB50060466B /* SceneDelegate.swift in Sources */,
-				04C84D3A24A6994200D579E8 /* Keys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
